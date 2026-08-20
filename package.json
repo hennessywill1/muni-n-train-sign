@@ -1,0 +1,8 @@
+{
+  "name": "muni-n-train-api",
+  "version": "1.0.0",
+  "description": "Muni N Train arrival times API",
+  "engines": {
+    "node": "18.x"
+  }
+}
