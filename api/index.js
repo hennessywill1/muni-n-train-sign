@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   try {
     const STOP_ID = '13911';
     const ROUTE = 'N';
-    const AGENCY = 'sfmta';
+    const AGENCY = 'sf-muni';
     
     const url = `http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=${AGENCY}&stopId=${STOP_ID}&routeTag=${ROUTE}`;
     
